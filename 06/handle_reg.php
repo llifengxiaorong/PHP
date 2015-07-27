@@ -60,11 +60,7 @@ if ( !isset($_POST['terms'])) {
 	print '<p class="error">You must accept the terms.</p>';
 	$okay = FALSE;	
 }
-print '5';
-if(5){
-	print '5';
-}
-
+print  empty('false');
 // If there were no errors, print a success message:
 if ($okay) {
 	print '<p>You have been successfully registered (but not really).</p>';

@@ -24,6 +24,8 @@ print "<p>$soups</p>";
 // Print the contents of the array:
 print_r ($soups);
 
+var_dump ($soups);
+
 ?>
 </body>
 </html>

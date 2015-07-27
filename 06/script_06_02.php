@@ -20,6 +20,13 @@ $okay = TRUE;
 if ($okay) {
 	print '<p>You have been successfully registered (but not really).</p>';
 }
+$var1 =0;
+$var2='something';
+$var3='';
+echo empty($var1);
+echo empty($var2);
+echo empty($var3);
+
 ?>
 </body>
 </html>
